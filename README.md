@@ -12,4 +12,7 @@ This is a simple implementation of the classic Hangman game using TypeScript and
 **Game Over Conditions:** The game ends when the player wins by guessing the word or loses by making too many incorrect guesses.
 
 here the demo of the implementation
+
+
+
 <img width="334" alt="Hangman1" src="https://github.com/K-a-j-a-l/Hangman-Game-TS-React/assets/123719510/f3060a89-82bd-4a88-a2cb-96839dbb90c3">

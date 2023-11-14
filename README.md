@@ -1,27 +1,12 @@
-# React + TypeScript + Vite
+# hangman game using typescript and React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple implementation of the classic Hangman game using TypeScript and React.
 
-Currently, two official plugins are available:
+## Features
+**Random Word Generation**: The game selects a random word from a predefined word list.
+**Interactive Keyboard:** Users can guess letters by clicking on an on-screen keyboard or using physical keyboard keys.
+**Visual Feedback:** The game provides visual feedback on correct and incorrect guesses, including a drawing of the hangman.
+**Game Over Conditions:** The game ends when the player wins by guessing the word or loses by making too many incorrect guesses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+here the demo of the implementation
+<img width="334" alt="Hangman1" src="https://github.com/K-a-j-a-l/Hangman-Game-TS-React/assets/123719510/f3060a89-82bd-4a88-a2cb-96839dbb90c3">

@@ -4,8 +4,10 @@ This is a simple implementation of the classic Hangman game using TypeScript and
 
 ## Features
 **Random Word Generation**: The game selects a random word from a predefined word list.
+
 **Interactive Keyboard:** Users can guess letters by clicking on an on-screen keyboard or using physical keyboard keys.
 **Visual Feedback:** The game provides visual feedback on correct and incorrect guesses, including a drawing of the hangman.
+
 **Game Over Conditions:** The game ends when the player wins by guessing the word or loses by making too many incorrect guesses.
 
 here the demo of the implementation
